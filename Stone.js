@@ -32,7 +32,7 @@ class Stone{
     }
 
     attach(body){
-        this.constraint.pointB = body
+        this.constraint.bodyA = body
 
     }
 
